@@ -10,8 +10,6 @@ jobs:
     steps:
     - name: Mostrar mensaje
       run:
-        echo "Hola"
-      run:
-        date
-      run:
-        java -version
+        - echo "Hola"
+          date
+          java -version
